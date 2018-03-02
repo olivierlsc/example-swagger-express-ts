@@ -15,6 +15,23 @@
     "type": "git",
     "url": "git+https://github.com/olivierlsc/example-swagger-express-ts.git"
   },
+  "keywords": [
+    "inversify",
+    "inversifyjs",
+    "swagger",
+    "swagger2",
+    "swagger-ui",
+    "typescript",
+    "expressjs",
+    "express",
+    "api rest",
+    "documentation",
+    "decorator",
+    "generator",
+    "swagger.json",
+    "json",
+    "rest"
+  ],
   "author": "Olivier LIN-SI-CHENG",
   "license": "MIT",
   "homepage": "https://github.com/olivierlsc/example-swagger-express-ts.git#readme",
