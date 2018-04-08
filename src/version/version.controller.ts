@@ -1,7 +1,7 @@
 import * as express from "express";
 import {injectable} from "inversify";
 import {controller, httpGet, interfaces} from "inversify-express-utils";
-import {ApiPath, ApiOperationGet} from "swagger-express-ts";
+import {ApiPath, ApiOperationGet, SwaggerDefinitionConstant} from "swagger-express-ts";
 
 @ApiPath( {
     path : "/versions" ,
@@ -26,13 +26,17 @@ export class VersionController implements interfaces.Controller {
         }
     ];
 
-    @ApiOperationGet({
-        description : "Get versions objects list",
-        summary : "Get versions list",
+    @ApiOperationGet( {
+        description : "Get versions objects list" ,
+        summary : "Get versions list" ,
         responses : {
-            200 : { description : "Success", isArray : true, model : "Version" }
-        },
-    })
+            200 : {
+                description : "Success" ,
+                type : SwaggerDefinitionConstant.Model.Property.Type.ARRAY ,
+                model : "Version"
+            }
+        } ,
+    } )
     @httpGet( "/" )
     public get ( request : express.Request , response : express.Response , next : express.NextFunction ) : void {
         response.json( this.versions );

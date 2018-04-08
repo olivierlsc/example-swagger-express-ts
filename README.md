@@ -5,19 +5,19 @@
 First, clone the project.
 
 ```sh
-    git clone https://github.com/olivierlsc/example-swagger-express-ts.git
+git clone https://github.com/olivierlsc/example-swagger-express-ts.git
 ```
 
 Install all packages.
 
 ```sh
-    npm install
+npm install
 ```
 
 Start the server.
 
 ```sh
-    npm run dev
+npm run dev
 ```
 
 Test it on http://localhost:3000/api-docs/swagger
