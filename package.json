@@ -1,6 +1,6 @@
 {
   "name": "example-swagger-express-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "built/main.js",
   "scripts": {
@@ -43,7 +43,7 @@
     "inversify": "^4.5.1",
     "inversify-express-utils": "^4.2.2",
     "reflect-metadata": "^0.1.10",
-    "swagger-express-ts": "^1.0.0-beta.1",
+    "swagger-express-ts": "^1.0.0-rc.1",
     "swagger-ui-dist": "^3.11.0"
   },
   "devDependencies": {
