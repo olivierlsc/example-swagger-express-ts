@@ -38,7 +38,8 @@ export class VersionController implements interfaces.Controller {
         description: "Success",
         type: SwaggerDefinitionConstant.Model.Property.Type.ARRAY,
         model: "Version"
-      }
+      },
+      500: {}
     }
   })
   @httpGet("/")
