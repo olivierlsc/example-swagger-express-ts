@@ -43,6 +43,9 @@ server.setConfig((app: any) => {
         },
         externalDocs: {
           url: "My url"
+        },
+        responses: {
+          500: {}
         }
       }
     })

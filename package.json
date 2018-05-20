@@ -44,7 +44,7 @@
     "inversify": "^4.5.1",
     "inversify-express-utils": "^4.2.2",
     "reflect-metadata": "^0.1.10",
-    "swagger-express-ts": "^1.0.0-rc.2",
+    "swagger-express-ts": "^1.0.0-rc.4",
     "swagger-ui-dist": "^3.11.0"
   },
   "devDependencies": {
