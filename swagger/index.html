@@ -69,7 +69,6 @@
 <div id="swagger-ui"></div>
 
 <script src="/api-docs/swagger/assets/swagger-ui-bundle.js"></script>
-<script src="/api-docs/swagger/assets/swagger-ui-standalone-preset.js"></script>
 <script>
     window.onload = function () {
 
@@ -79,13 +78,11 @@
             dom_id: '#swagger-ui',
             deepLinking: true,
             presets: [
-                SwaggerUIBundle.presets.apis,
-                SwaggerUIStandalonePreset
+                SwaggerUIBundle.presets.apis
             ],
             plugins: [
                 SwaggerUIBundle.plugins.DownloadUrl
             ],
-            layout: "StandaloneLayout",
             validatorUrl: null
         });
 
