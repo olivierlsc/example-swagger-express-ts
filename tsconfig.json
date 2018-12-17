@@ -1,33 +1,27 @@
 {
-  "compileOnSave": true,
-  "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "es6",
-      "dom"
-    ],
-    "types": [
-      "express",
-      "inversify",
-      "reflect-metadata",
-      "compression",
-      "helmet",
-      "mocha",
-      "sinon",
-      "swagger-express-ts",
-      "chai"
-    ],
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "isolatedModules": false,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "noImplicitAny": true,
-    "preserveConstEnums": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "outDir": "built"
-  },
-  "exclude": [
-    "node_modules"
-  ]
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["es6", "dom"],
+        "types": [
+            "express",
+            "inversify",
+            "inversify-express-utils",
+            "reflect-metadata",
+            "mocha",
+            "sinon",
+            "lodash",
+            "chai"
+        ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "noImplicitAny": true,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "outDir": "built"
+    },
+    "exclude": ["node_modules"]
 }

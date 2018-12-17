@@ -2,4 +2,8 @@ node_modules
 config.json
 built
 .idea
-reports
+coverage
+*.log
+*.log.*
+logs
+.nyc_output
