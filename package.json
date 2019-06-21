@@ -40,6 +40,7 @@
         "https://github.com/olivierlsc/example-swagger-express-ts.git#readme",
     "dependencies": {
         "@types/body-parser": "^1.16.8",
+        "@types/express": "^4.17.0",
         "@types/lodash": "^4.14.118",
         "body-parser": "^1.18.2",
         "inversify": "^5.0.1",
