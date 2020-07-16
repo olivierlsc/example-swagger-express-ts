@@ -44,7 +44,7 @@
         "body-parser": "^1.18.2",
         "inversify": "^5.0.1",
         "inversify-express-utils": "4.2.2",
-        "lodash": "^4.17.11",
+        "lodash": "^4.17.19",
         "reflect-metadata": "^0.1.10",
         "swagger-express-ts": "^1.0.1",
         "swagger-ui-dist": "^3.17.0"
