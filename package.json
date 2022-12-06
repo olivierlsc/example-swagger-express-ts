@@ -41,9 +41,9 @@
     "dependencies": {
         "@types/body-parser": "^1.16.8",
         "@types/lodash": "^4.14.118",
-        "body-parser": "^1.18.2",
+        "body-parser": "^1.20.1",
         "inversify": "^5.0.1",
-        "inversify-express-utils": "4.2.2",
+        "inversify-express-utils": "6.4.3",
         "lodash": "^4.17.11",
         "reflect-metadata": "^0.1.10",
         "swagger-express-ts": "^1.0.1",
